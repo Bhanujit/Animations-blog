@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation.html</title>
+    <link rel="stylesheet" href="Animation.css">
+</head>
+
+<body>
+    <!-- <div class="container">
+        <div class="box" id="box-1">LOGO.png
+        </div>
+        <div class="box" id="box-2"> <nav class="navbar">
+            <ul class="nav">
+                <li class="item">Home</li>
+                <li class="item">About Us</li>
+                <li class="item">Services</li>
+                <li class="item">Remarks</li>
+            </ul>
+        </nav></div> -->
+    <div id="Mainh">
+        <h1 class="heading">
+            CSS animations
+        </h1>
+    </div>
+    </header>
+    <div class="para" id="firstp">
+        Welcome to the CSS animation Page. Here i will upload and save all the CSS animation codes with description of
+        their usage. So that in future if i need any kind of help with the animation thing i can easily find all the
+        codes here.
+        <br>
+        <br>
+        And i will try to add description of all the other codes i have used. The codes i don't know or the codes which
+        i will hear for the first time or if i don't know about the function of the codes.
+    </div>
+    <div class="div">
+        <h2 class="heading" id="basics">
+            Animation basics
+        </h2>
+    </div>
+    <br>
+    <div class="anime1" ;>
+        <div class="box1">
+            <strong> Animation </strong>
+        </div>
+    </div>
+    <div class="para" id="second p">
+        So to create an animation like this we will have to give it a name like i gave "ani1". Then you ll have to use
+        key frames by typing @keyframes on the css page and the name of the animation. Then open two selectors "from"
+        and "to" and then you can set the values like i made it start from 150px too 450px to create this kind of
+        animation. You can set the timing using the animation duration property and you can also set, how many times the
+        animation will run by using animation iteration count.
+        <br>
+        Now let't talk about the other funcions of this animation
+        <div class="anime2">
+            <div class="box2">
+                <strong>Properties</strong>
+            </div>
+        </div>
+        <div class="para">
+            So the other properties that have been used in this animations are:- <br>
+            1. Animation fill mode: With this function you can select if the animation is going stop at the end or just
+            continue going. I have selected the forwards option so it stops when the animation is complete.(You'll have
+            to set the animation count to one to apply this properly).
+            <br>
+            2. Animation timing function: The animation timimg function is used to tell the compiler, when to slow down
+            the animation and when to speed up. There are a lot of options i have selected ease out which means the
+            animation will start slow and will speed up at the end moment.
+            <br>
+            3.Animation delay: The animation delay is nothing but telling the compiler to start the animation a bit
+            later after loading. I have set the timing for 3 seconds and as a result the animations starts a bit later
+            instead of starting right after loading the page.
+            <br>
+            4. Animation direction: with this property you can set, like from where should the animation start. From the
+            starting to ending or from the ending to the start.
+        </div>
+        <div class="anime3">
+            <div class="box3">
+                <strong>Syntex</strong>
+            </div>
+        </div>
+        <div class="para">
+            Here we have used the other syntex property which indicates what to do when the animation is that much
+            completed. We have used the % type.
+            <br>
+            Firts of all i have seleted 0%, means when the animation will start what will happen. then selected 25% and
+            75% and 100%. So when the animation starts the box starts to move towards right, when the animation is 25%
+            finished you the box will be at complete right. After that the box will move downwards and then on the left
+            side and this will continue.
+            <br>
+            <br>
+            You can write down all the functions in a single line, the order is like: Animation name, animation
+            duration, animation timing function, animation delay, animation iteration count, animation fill mode;......
+        </div>
+        <div class="div">
+            <h2 class="heading" id="basics">
+                Transitions
+            </h2>
+        </div>
+        <div class="trans">
+            <div>
+                <strong>Transition</strong>
+            </div>
+        </div>
+        <div class="para">
+            This is the css trnasition property. With this property you can change the back ground color, color and a
+            lot of things and this function has a lot of options too. And it also has the similar functions as
+            animation; like trnasition duration, Transition timing function, Transition delay.......lavda lassan.
+            I have used the trnasition duration only.
+            <br>
+            <br>
+            you can use this trnasition shorthand property; trnasition: backgound-color, Transition duration, transition
+            timing funcion, and transition delay.
+        </div>
+        <div class="container">
+            <div class="trans1">
+                <div class="text1">
+                    <strong>Box Size</strong>
+                </div>
+            </div>
+        </div>
+        <div class="para">
+            So it is the same css transition property with some more funcions added into it. like you can see when you
+            put your mouse pointer in the box it transits into a circle and changes its size also. For the circle you
+            just have to set the transition border radius same as its height and width. And most importantly you will
+            have to change the trnasition property form backgound-color to all so that the other funcions like timing
+            and all applies in it.
+        </div>
+        <div class="div">
+            <h2 class="heading" id="basics">
+                Transform
+            </h2>
+        </div>
+        <div class="transform">
+            <div class="transf1">
+                <strong>
+                    Transform
+                </strong>
+            </div>
+        </div>
+        <div class="para">
+            This is the css tranform property. You can use the tranform property to creater animations like rotating the
+            elemnt or moving the elment or changing its shape and all. Right now i have used the rotate proprety.
+            Firstly create 2 div with classes or id. then target them add background height and width to the child div
+            and use flex box to centerlise the items inside and then use the hover selelctor and then inside the hover
+            you can use transform property. Remember to use the transition property to add timing and other stuff.
+        </div>
+        <div class="para">
+            Now lets talk about the other properties we can use with the transform.....
+         </div>
+        <div class="transform">
+            <div class="transf2">
+                <strong>Properties</strong>
+            </div>
+        </div>
+        <div class="para">
+            There are a few more transfomr properties that i have commented out in the css page like transitionx transitiony and others. This is the skew property which changes its shape and you can also change the backgound-color but i didn't wanted to change it thats why i kept it this one color only.
+        </div>
+
+
+
+
+
+
+
+
+        <footer id="flex">
+            <div class="remarks">
+                <a href="https://www.facebook.com/bhanujit700/" target="blank"><img src="https://scontent.fgau3-1.fna.fbcdn.net/v/t39.30808-6/269746699_2872338093057850_5259738109633115837_n.jpg?_nc_cat=111&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=dPq73BTKnbAAX_VFy1w&_nc_ht=scontent.fgau3-1.fna&oh=00_AT90sGrzQV91g_OamMjSv41JSH9BO5-tDCT8uFiC0cJf6w&oe=61D14BED"
+                    alt="bhanujit/facebook" height="200px" width="200px"> </a>
+            </div>
+            <div class="para" id="remarks" ;>
+                Yes...! Thats me. After the borads i have decided to go with the commerce stream. I was always
+                interested in codes but i wanted to learn coding by my self. So i started learning on my own and i am
+                looking forward to become a front end junior developer in now. After achiving that i will dive deep into
+                the world of codes and i want to be a buisness man also...... lets see!!!
+
+            </div>
+        </footer>
+</body>
+
+</html>

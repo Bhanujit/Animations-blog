@@ -1,0 +1,258 @@
+body {
+    background-color:rgb(255, 255, 255);
+    font-family: cursive;
+   
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 50px;
+}
+.heading{
+    color: rgb(39, 169, 209);
+}
+
+.mainh{
+    color: rgb(39, 169, 209);
+    margin: 5px auto;
+    font-size: 60px;
+}
+
+#firstp {
+    font-size: 30px;
+    justify-content: center;
+    display: flex;
+}
+
+.para{
+    font-size: 30px;
+
+}
+
+.heading {
+    color:  rgb(24, 145, 182);
+    margin: auto;
+    display: flex;
+    font-size: 40px;
+    
+}
+.anime1{
+    background-color: #4fc7bb;
+    height: 150px;
+    width: 600px;
+    margin: auto;
+    display: flex;
+    border-radius: 20px;
+}
+.box1 strong{
+    font-size: 25px;
+}
+
+.box1{
+    background-color: rgb(24, 145, 182);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    animation-name: ani1;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+@keyframes ani1{
+    from{
+    width: 150px;
+    } 
+    to{
+    width: 450px;
+    }
+}
+
+.anime2{
+    background-color: #4fc7bb;
+    height: 150px;
+    width: 600px;
+    margin: auto;
+    border-radius: 20px;
+}
+
+.box2{
+    background-color: rgb(24, 145, 182);
+    height: 150px;
+    width: 150px;
+    position: relative;
+    animation-name: ani2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: forwards;
+    animation-timing-function: ease-in-out;
+    animation-delay: 3s;
+    animation-direction: reverse;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 20px;
+}
+.box2 strong{
+    font-size: 25px;
+}
+@keyframes ani2{
+    from{
+        width: 150px;
+    }
+    to{
+        width: 450px;
+    }
+}
+
+.anime3{
+    display: flex;
+    background-color: #4fc7bb;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+   
+    border-radius: 20px;
+}
+
+.box3{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    background-color: rgb(24, 145, 182);
+    height: 200px;
+    width: 200px;
+    position: relative;
+    animation-name: ani3;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-out;
+    animation-direction: alternate;
+    border-radius: 20px;
+}
+
+@keyframes ani3{
+    0%{
+top: 0px;
+left: 0px;
+    }
+    25%{
+        top: 0px;
+left: 200px;
+    }
+    75%{
+top: 200px;
+left: 200px;
+    }
+    100%{
+        top: 200px;
+        left:0px;
+    }
+}
+.trans{
+    border-radius: 10px;
+    margin: 14px auto;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: #4fc7bb;
+    transition-property: background-color;
+    transition-duration: 2s;
+}
+
+.trans:hover{
+    background-color: rgb(24, 145, 182);
+}
+
+.trans1{
+    border-radius: 10px;
+    margin: 14px auto;
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    width: 200px;
+    background-color: #4fc7bb;
+    transition-property: all;
+    transition-duration: 4s ;
+}
+
+.text1{
+    margin: auto;
+}
+
+.trans1:hover{
+    background: rgb(39, 169, 209);
+    height: 300px;
+    width: 300px;
+    border-radius: 300px;
+    font-size:70px;
+}
+.container{
+    margin-top: 40px;
+    height: 300px;
+}
+.transform{
+    margin-top: 60px;
+    margin-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transf1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 200px;
+    background-color:rgb(39, 169, 209);
+    border-radius: 5px; 
+    transition: all 1s ;
+}
+
+.transf1:hover{
+    transform: rotate(360deg);
+    border-radius: 30px;
+}
+
+.transf2{
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 200px;
+     width: 200px;
+     background-color: rgb(39, 169, 209);
+     border-radius: 5px;
+    transition: all 1s;
+}
+
+.transf2:hover{
+    transform: skew(45deg);
+    /* transform: scale(2); */
+    /* transform: translateX(123px); */
+    /* transform: translateY(123px); */
+}
+
+
+
+
+#lasth{
+    margin: auto;
+    font-size: 30px;
+}
+
+.remarks{
+    margin-top: 90px;
+    display: flex;
+    justify-content: center;
+}
+
+#remarks{
+   margin: auto;
+    width: 80%;
+}
+footer{
+    margin-top: 180px;
+}
